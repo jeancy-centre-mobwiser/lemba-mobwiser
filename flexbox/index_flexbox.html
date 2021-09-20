@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX EN HTML</title>
+</head>
+<body>
+    <style>
+        @media screen and (min-width:650px){
+            .contenair{
+              display: flex;
+            }
+
+            div{
+                margin: 5px;
+            }
+        }
+        
+        .figure1{
+            text-align: center;
+            
+        }
+        .figure1 img:hover{
+            opacity: 0.7;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+    <div class="contenair">
+        <div class="figure1">
+            <img src="/image/image1.jpg" alt="" height="240" width="211">
+            <Figcaption>IMAGE1</Figcaption>
+        </div>
+        <div class="figure2">
+            <img src="/image/image2.jpg" alt="" height="240" width="211">
+            <figcaption>IMAGE2</figcaption>
+        </div>
+        <div>
+            <img src="/image/image3.jpg" alt=""height="240" width="211">
+            <figcaption>IMAGE3</figcaption>
+        </div>
+    </div>
+    
+</body>
+</html>
